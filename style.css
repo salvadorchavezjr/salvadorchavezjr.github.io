@@ -631,3 +631,29 @@ button:focus-visible {
         margin-top: 48px;
     }
 }
+
+/* RESUME BUTTON */
+.resume-button {
+    background: #ffffff;
+    color: #07111f;
+    border: 1px solid #ffffff;
+    font-weight: 800;
+}
+
+.resume-button:hover {
+    background: #dcecff;
+    border-color: #dcecff;
+    color: #07111f;
+    transform: translateY(-3px);
+}
+
+/* Resume button outside the dark hero */
+.contact .resume-button {
+    background: #07111f;
+    border-color: #07111f;
+    color: #ffffff;
+}
+
+.contact .resume-button:hover {
+    background: #142b45;
+}
